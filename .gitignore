@@ -1,0 +1,20 @@
+# Python legacy application
+__pycache__/
+*.py[cod]
+*.spec.local
+
+# Java engine
+backend/target/
+
+# React and Tauri
+frontend/node_modules/
+frontend/dist/
+frontend/src-tauri/target/
+frontend/src-tauri/gen/
+
+# Local application databases and generated exports
+*.db
+*.db-shm
+*.db-wal
+data/
+output/
